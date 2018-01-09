@@ -15,7 +15,23 @@ $(function(){
   });
 
   $("#normal").click(function(){
+    $("body").removeClass("green-background yellow-background red-background");
     $("body").toggleClass("inverted", "normal");
+  });
+
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
+
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
   });
 
 });
