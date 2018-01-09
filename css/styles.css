@@ -9,6 +9,10 @@
   display: none;
 }
 
+#inverted{
+  display: none;
+}
+
 .slideable {
   cursor: pointer;
   color: #0088cc;
@@ -45,4 +49,14 @@ h1 {
   font-weight: bold;
   font-family: monospace;
   font-size: 4em;
+}
+
+.inverted{
+  background-color: black;
+  color: white;
+}
+
+.normal{
+  background-color: white;
+  color: black;
 }

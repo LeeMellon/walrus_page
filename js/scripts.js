@@ -14,4 +14,8 @@ $(function(){
     $("#walrus-slideUp").slideToggle();
   });
 
+  $("#normal").click(function(){
+    $("body").toggleClass("inverted", "normal");
+  });
+
 });
