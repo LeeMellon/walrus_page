@@ -72,3 +72,9 @@ h1 {
 .red-background {
   background-color: red;
 }
+
+.boxwrap {
+  border: 3px;
+  border-style: solid;
+  border-color: purple;
+}
