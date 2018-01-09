@@ -40,3 +40,9 @@ img {
   width: 320px;
   height: inherit;
 }
+
+h1 {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 4em;
+}
