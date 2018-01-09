@@ -4,6 +4,20 @@
 #walrus-fadeIn {
   display: none;
 }
+
+#walrus-slideDown {
+  display: none;
+}
+
+.slideable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.slideable:hover {
+  text-decoration: underline;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -13,11 +27,6 @@
   text-decoration: underline;
 }
 
-img {
-  width: 320px;
-  height: inherit;
-}
-
 .fadeable{
   cursor: pointer;
   color: #0088cc;
@@ -25,4 +34,9 @@ img {
 
 .fadeable:hover {
   text-decoration: underline;
+}
+
+img {
+  width: 320px;
+  height: inherit;
 }

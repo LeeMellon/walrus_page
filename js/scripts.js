@@ -11,4 +11,11 @@ $(function(){
   });
 });
 
+$(function() {
+  $(".slideable").click(function() {
+    $("#walrus-slideDown").slideToggle();
+    $("#walrus-slideUp").slideToggle();
+  });
+});
+
 });
